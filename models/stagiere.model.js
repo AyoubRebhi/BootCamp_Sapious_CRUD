@@ -20,11 +20,7 @@ const stagiereSchema=mongoose.Schema({
     encadreur:{
         type: String,
         required: true,
-    },
-    departement:{
-        type: String,
-        required: true,
-    },
+    }
 
 });
 
