@@ -4,7 +4,7 @@ const { default: mongoose } = require("mongoose");
 const app=express();
 const mongoose =require("mongoose");
 
-const Stagiere = require("./models/stagiere")
+const Stagiere = require("./models/stagiere.model")
 
 app.get('/stagieres',(req,res)=>{
     
@@ -41,7 +41,7 @@ app.use(express.urlencoded({ extended: false}));
 //middleware rootes
 
 //listening server
-const port=5500;
+const port=8000;
 
 app.listen(port, ()=>{
     console.log(`Example app listening on port ${port}`);
