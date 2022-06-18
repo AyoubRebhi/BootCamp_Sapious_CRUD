@@ -5,7 +5,23 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.16"
+  },
+  "scripts": {
+    "start": "node server.js"
     
-  }
-
+  },
+  "name": "tuto",
+  "version": "1.0.0",
+  "description": "test server node js ",
+  "main": "Server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AyoubRebhi/BootCamp_Sapious_Js.git"
+  },
+  "author": "ayoub_rebhi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AyoubRebhi/BootCamp_Sapious_Js/issues"
+  },
+  "homepage": "https://github.com/AyoubRebhi/BootCamp_Sapious_Js#readme"
 }
